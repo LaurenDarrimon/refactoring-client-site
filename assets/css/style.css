@@ -1,14 +1,17 @@
+
+/* GENERAL styling (universal & body)*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
 body {
     background-color: #d9dcd6;
 }
 
+
+/* HEADER style attributes*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,10 +24,11 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
+/* NAVIGATION (nav) */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,25 +38,33 @@ nav {
 }
 
 nav ul {
+    /* the unordered list that makes up the nav has no bullet marks */
     list-style-type: none;
 }
 
 nav ul li {
+    /* nav list items will display inline next to one another horizonatlly */
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/* PARAGRAPH p font size */
 p{
     font-size: 16px;
 }
 
+
 a {
+    /* links (anchor elements) are white with no underline */
     color: #ffffff;
     text-decoration: none;
 }
 
 
+
 .hero {
+    /* the div with class "hero" has specific syling, especially the background image */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -61,6 +73,31 @@ a {
     background-position: center;
 }
 
+
+/* MAIN */
+/* main element styling width, display, margin */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* sections that are children of the main spacing & font syles*/
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* images that are children of sections within the main won't be any taller than 200px */
+main section img {
+    max-height: 200px;
+}
+
+/* class attributes for floating images right or left*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,13 +108,10 @@ a {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-.benefits {
+
+/* SIDE BAR (ASIDE) spacing, color & font*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -88,43 +122,25 @@ a {
     background-color: #2589bd;
 }
 
-
-
-
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-
-main section img {
-    max-height: 200px;
-}
-
-
-
-/*styling for the ASIDE (side bar) */
+/*styling for all the sections that are children of the aside - color & spacing*/
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* styling heading 2s within the sections within the aside */
 aside section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* styling heading 3s within the sections within the aside */
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* styling images within the sections within the aside */
 aside section img {
     display: block;
     margin: 10px auto;
@@ -132,7 +148,8 @@ aside section img {
 }
 
 
-
+/* FOOTER*/
+/* styling the footer element spcing and font*/
 footer {
     padding: 30px;
     clear: both;
@@ -140,6 +157,7 @@ footer {
     text-align: center;
 }
 
+/* styling the heading 2s inside the footer element*/
 footer h2 {
     font-size: 20px;
 }
