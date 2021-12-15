@@ -1,8 +1,6 @@
 # refactoring-client-site
 Lauren Duker Darrimon's Homework Week 1 - Accessibility refactoring client site 
 
-description, screenshot, and link to deployed application.
-
 
 * [Description](#description)
 * [Methods](#methods)
@@ -25,9 +23,9 @@ The main issue was that the site was not fully acesssible, since it lacked many 
 
 ## Link
 
-[HoriSEOn Digital Marketing Refactored Website](https://link-url-here.org)
+[HoriSEOn Digital Marketing Refactored Website](https://laurendarrimon.github.io/refactoring-client-site/)
 
-
+g
 ## Credits
 
 Thanks to [UC Berekely Extension Coding Bootcamp ](https://bootcamp.berkeley.edu/coding/)
