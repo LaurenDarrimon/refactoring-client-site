@@ -1,5 +1,5 @@
 
-/* GENERAL styling (universal & body)*/
+/* UNIVERSAL styling (universal & body)*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -49,8 +49,9 @@ nav ul li {
 }
 
 
-/* PARAGRAPH p font size */
+/* GENERAL styling */
 p{
+    /* paragraph font size */
     font-size: 16px;
 }
 
